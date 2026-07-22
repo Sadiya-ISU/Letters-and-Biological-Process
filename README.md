@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook-based analysis of the Gene Ontology 
 
 ## Repository Contents
 
-- `Count the DAG_Final.ipynb` — main analysis notebook
+- `go_lingdepth_all_in_one.ipynb` — main analysis notebook
 - `go-basic.zip` — compressed GO ontology file (`go-basic.obo`)
 - `LICENSE` — project license
 
