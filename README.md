@@ -4,10 +4,20 @@ This repository contains a Jupyter Notebook-based analysis of the Gene Ontology 
 
 ## Repository Contents
 
-- `go_lingdepth_all_in_one.ipynb` — **main analysis notebook**
-- `Count the DAG_Final.ipynb` — earlier/alternate notebook version for DAG counting and analysis
-- `go-basic.zip` — compressed GO ontology file (`go-basic.obo`)
-- `LICENSE` — project license
+- `go_lingdepth_all_in_one.ipynb` — **Primary notebook (start here)**.  
+  End-to-end workflow for the project: loads GO data, builds/traverses the DAG, computes depth-level statistics, runs correlation/non-parametric analyses, generates visualizations, and performs embedding/clustering + entropy-based exploration.
+
+- `Count the DAG_Final.ipynb` — **Legacy/earlier analysis notebook**.  
+  An older version of the workflow kept for reference and comparison with the main notebook’s implementation/results.
+
+- `go-basic.zip` — **Input ontology archive**.  
+  Compressed source for `go-basic.obo`, the Gene Ontology file required by the notebooks. Extract before running analysis.
+
+- `go-basic.obo` — **Primary raw data file (after extraction)**.  
+  Parsed by the notebooks to construct GO term relationships (parent/child DAG structure) and run all downstream analyses.
+
+- `LICENSE` — **Usage and distribution terms**.  
+  Defines how others can use, modify, and share this repository.
 
 ## Scope
 
