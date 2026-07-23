@@ -1,0 +1,23 @@
+{
+  "namespace": "BP",
+  "stopwords": "english",
+  "empirical_peak_depth": 4,
+  "empirical_peak_entropy_bits": 9.219542342774693,
+  "quadratic_vertex": 6.24,
+  "loo_lo": 5.73,
+  "loo_hi": 6.37,
+  "fits": {
+    "linear": {
+      "r2": 0.018,
+      "aicc": 30.42
+    },
+    "log": {
+      "r2": 0.067,
+      "aicc": 23.21
+    },
+    "quadratic": {
+      "r2": 0.828,
+      "aicc": 9.36
+    }
+  }
+}
