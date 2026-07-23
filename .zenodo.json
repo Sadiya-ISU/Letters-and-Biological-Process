@@ -1,7 +1,7 @@
 {
   "title": "Letters and Biological Process: analysis code",
   "upload_type": "software",
-  "description": "Reproducible pipeline analyzing GO term-name linguistics vs. ontology depth (BIOINF-2026-1197).",
+  "description": "Reproducible pipeline analyzing GO term-name linguistics vs. ontology depth.",
   "creators": [{"name": "Ahmad, Sadiya", "affiliation": "Iowa State University"}],
   "license": "MIT",
   "keywords": ["Gene Ontology", "TF-IDF", "Shannon entropy", "UMAP", "ontology language"],
