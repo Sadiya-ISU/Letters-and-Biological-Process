@@ -1,10 +1,11 @@
 # Letters and Biological Process
 
-This repository contains a Jupyter Notebook-based analysis of the Gene Ontology (GO) biological process Directed Acyclic Graph (DAG), with a focus on term depth, graph structure, and text-based clustering patterns.
+This repository contains a Jupyter Notebook-based analysis of the Gene Ontology (GO) biological process Directed Acyclic Graph (DAG), with a focus on term depth, graph structure, and text-based clustering.
 
 ## Repository Contents
 
-- `go_lingdepth_all_in_one.ipynb` — main analysis notebook
+- `go_lingdepth_all_in_one.ipynb` — **main analysis notebook**
+- `Count the DAG_Final.ipynb` — earlier/alternate notebook version for DAG counting and analysis
 - `go-basic.zip` — compressed GO ontology file (`go-basic.obo`)
 - `LICENSE` — project license
 
@@ -60,7 +61,7 @@ After extraction, ensure this file exists:
    ```bash
    jupyter lab
    ```
-2. Open `Count the DAG_Final.ipynb`.
+2. Open `go_lingdepth_all_in_one.ipynb`.
 3. Run cells in order from top to bottom.
 
 ## Expected Outcome
