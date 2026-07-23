@@ -4,8 +4,12 @@ This repository contains a Jupyter Notebook-based analysis of the Gene Ontology 
 
 ## Repository Contents
 
-- `go_lingdepth_all_in_one.ipynb` — main analysis notebook
-- `go-basic.zip` — compressed GO ontology file (`go-basic.obo`)
+- `Count the DAG_Final.ipynb` — primary end-to-end analysis notebook
+- `go_lingdepth_all_in_one.ipynb` — consolidated analysis notebook variant
+- `go_lingdepth/` — reusable Python modules for OBO parsing, depth analysis, plotting, clustering, and entropy/statistical workflows
+- `go-basic.obo` — Gene Ontology source file used by the notebooks
+- `go-basic.zip` — compressed copy of `go-basic.obo`
+- `emb_BP.npy` — precomputed biological process embeddings used in analysis steps
 - `LICENSE` — project license
 
 ## Scope
@@ -40,15 +44,13 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn networkx tqdm sen
 
 ## Data Preparation
 
-The notebook expects `go-basic.obo` in the repository root. Extract it from `go-basic.zip`:
+`go-basic.obo` is already included in the repository root.
+
+If needed, you can regenerate it from the archive:
 
 ```bash
-unzip go-basic.zip
+unzip -o go-basic.zip
 ```
-
-After extraction, ensure this file exists:
-
-- `./go-basic.obo`
 
 ## How to Run
 
